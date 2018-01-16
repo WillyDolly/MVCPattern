@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_controller__view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.popland.pop.mvcpattern.Controller_View">
+    <TableRow
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp">
+        <TextView android:text="thing 0"/>
+        <TextView android:text="thing 1"/>
+        <TextView android:text="thing 2"/>
+    </TableRow>
+    <TableRow
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btn0"
+            android:text="count 0"/>
+        <Button
+            android:id="@+id/btn1"
+            android:text="count 0"/>
+        <Button
+            android:id="@+id/btn2"
+            android:text="count 0"/>
+    </TableRow>
+</TableLayout>
